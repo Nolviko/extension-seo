@@ -1,0 +1,21 @@
+{
+  "tables": {
+    "meta": {
+      "page_key": "string",
+      "title": "string",
+      "description": "text",
+      "keywords": "string",
+      "image": "text",
+      "canonical": "text",
+      "noindex": "boolean",
+      "updated_at": "bigint"
+    },
+    "redirects": {
+      "source": "string",
+      "target": "text",
+      "code": "integer",
+      "hits": "bigint",
+      "created_at": "bigint"
+    }
+  }
+}
