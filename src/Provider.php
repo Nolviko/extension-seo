@@ -76,7 +76,7 @@ return new class implements ExtensionProvider {
         $context->route(
             new RouteDefinition(
                 AdminHandler::ROUTE,
-                '/extensions/nolviko/seo/admin',
+                '/ext/nolviko/seo/admin',
                 ['GET', 'POST'],
                 requiresHttps: true,
             ),

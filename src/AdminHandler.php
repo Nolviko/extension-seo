@@ -28,7 +28,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 
 /**
- * `/extensions/nolviko/seo/admin` (2026-11-15): the SEO settings, for administrators only (owner decision).
+ * `/ext/nolviko/seo/admin` (2026-11-15): the SEO settings, for administrators only (owner decision).
  * Tabs: general (title and description templates), pages (settings for one address), addresses (patterns),
  * sitemap, robots.txt and redirects. Saving needs a password confirmation from the last 15 minutes like every
  * sensitive admin page; each save is audited. All text is translated and every value escaped here.
